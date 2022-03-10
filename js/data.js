@@ -4316,6 +4316,7 @@ function openRightDoor (_obj, func) {
     y: (doorstate == "close" ? 0.25 * 2 * Math.PI : 0 * 2 * Math.PI)
   }, 10000, createjs.Ease.elasticOut);
 }
+
 function openLeftDoor (_obj, func) {
   var doorstate = "close";
   var tempobj = null;
@@ -4338,6 +4339,7 @@ function openLeftDoor (_obj, func) {
     y: (doorstate == "close" ? 0.25 * 2 * Math.PI : 0 * 2 * Math.PI)
   }, 10000, createjs.Ease.elasticOut);
 }
+
 function openWallRightDoor (_obj, func) {
   var doorstate = "close";
   var tempobj = null;
@@ -4383,11 +4385,3 @@ function openfrontRightDoor (_obj, func) {
   }, 10000, createjs.Ease.elasticOut);
 }
 
-closeModal = function () {
-  $("#infoModal").modal('hide');
-  $('#equip-id').val('');
-  $('#equip-title').val('');
-  $('#equip-desc').val('');
-  $('#equip-type').val('');
-  $('#equip-type').val('');
-}

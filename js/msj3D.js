@@ -65,7 +65,7 @@ msj3D.prototype.initmsj3D = function (_fId, _option, _datajson) {
   this.controls = null;//鼠标控制器
   this.objList = _datajson.objects;//对象列表
   this.eventList = _datajson.events;//事件对象列表
-  this.btns = _datajson.btns;//按钮列表
+  // this.btns = _datajson.btns;//按钮列表
   var _this = this;
 }
 //初始化渲染器

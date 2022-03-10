@@ -4,69 +4,11 @@
 <head>
   <meta charset=utf-8>
   <title>EL3DRoom</title>
-  <style>
-    body {
-      margin: 0;
-      overflow: hidden;
-    }
-
-    body,
-    .canvas-frame {
-      touch-action: none;
-    }
-
-    canvas {
-      width: 100%;
-      height: 100%
-    }
-
-    .canvas_frame {
-      width: 100%;
-      height: 100%;
-      overflow: hidden;
-    }
-
-    .toolbar {
-      position: absolute;
-      top: 10px;
-      left: 10px;
-      width: 25px;
-    }
-
-    /* 
-    .modal {
-      width: 50%;
-      height: 80%;
-      position: absolute;
-      margin: 0 auto;
-    } */
-
-    .modal-body input {
-      width: 60%;
-      height: 35px;
-      line-height: 35px;
-      font-size: 14px;
-    }
-
-    .modal-content>.modal-body label {
-      width: 65px;
-      float: left;
-      height: 40px;
-      line-height: 40px;
-      font-size: 14px;
-    }
-
-    #hint {
-      width: 50px;
-      height: 5px;
-      position: absolute;
-      left: 0;
-      top: 0;
-      color: red;
-    }
-  </style>
   <link rel="stylesheet" href="css/bootstrap-theme.min.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/initial.css">
+  <link rel="stylesheet" href="css/index.css" />
+  <link rel="stylesheet" href="css/font-awesome.min.css" />
   <script src="libs/jquery-3.2.1.js"></script>
   <script src="libs/three.js"></script>
   <script src="libs/stats.js"></script>
@@ -74,12 +16,57 @@
   <script src="libs/ThreeBSP.js"></script>
   <script src="libs/tweenjs.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script src="js/index.js"></script>
   <script src="js/msj3D.js"></script>
   <script src="js/data.js"></script>
 </head>
 
 <body onload="threeStart();" style="touch-action: none;">
+  <nav class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse">
+          <span class="sr-only">切换导航</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">无锡市变电站监测管理系统</a>
+      </div>
+      <div class="collapse navbar-collapse" id="example-navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              <i class="fa fa-user fa-2x" aria-hidden="true"></i>
+            </a>
+            <ul class="dropdown-menu person-log">
+              <li><a href="#">登录</a></li>
+              <li><a href="#">注销</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
   <div id="canvas-frame" class="canvas_frame">
+    <div class="dropdown area-selector">
+      <button type="button" class="btn dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown"
+        onclick="toggleBtnText(this)">无锡市变电站
+      </button>
+      <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1" id='dropdownMenu1-item'>
+        <li role="presentation" class="dropdown-header">变电站</li>
+        <li role="presentation" id='1' value="无锡市春雷110千伏变电站">
+          <a role="menuitem" tabindex="-1" href="#">无锡市春雷110千伏变电站</a>
+        </li>
+        <li role="presentation" id='2' value="无锡市春雷210千伏变电站">
+          <a role="menuitem" tabindex="-1" href="#">无锡市春雷210千伏变电站</a>
+        </li>
+        <li role="presentation" id='3' value="无锡市春雷310千伏变电站">
+          <a role="menuitem" tabindex="-1" href="#">无锡市春雷310千伏变电站</a>
+        </li>
+      </ul>
+    </div>
     <div id="hint"></div>
   </div>
 
@@ -126,11 +113,36 @@
           </form>
         </div>
         <div class="modal-footer" style="border-top: 0px;">
-          <!-- <button type="button" class="btn btn-default" id="cancel-update" onclick="closeModal()"
+          <button type="button" class="btn btn-default" id="confirm-update" onclick="closeInfoModal()"
+            data-dismiss="modal">自动导航
+          </button>
+          <button type="button" id="confirm-update" onclick="closeInfoModal()" class="btn btn-primary">
+            手动控制
+          </button>
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal -->
+  </div>
+
+  <div class="modal right fade bs-example-modal-lgr curmodal" id="myModal" tabindex="-1" role="dialog"
+    aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header" style="border-bottom: 0px;">
+          <h5 class="modal-title" id="myModalLabel">
+            无锡市变电站监测管理系统
+          </h5>
+        </div>
+        <div class="modal-body">
+          <video src="" height="300" controls preload="metadata" style="margin-left: 40px;margin-bottom: 20px;"></video>
+          </br>
+          <div class="assistantInfo">
+            <h5><b>操作说明: W (前) A (后) S (左) D (右) J(向上) K(向下)</b></h5>
+          </div>
+        </div>
+        <div class="modal-footer" style="border-top: 0px;">
+          <button type="button" class="btn btn-default" id="confirm-update" onclick="closeInfoModal()"
             data-dismiss="modal">取消
-          </button> -->
-          <button type="button" id="confirm-update" onclick="closeModal()" class="btn btn-primary">
-            确认
           </button>
         </div>
       </div><!-- /.modal-content -->
