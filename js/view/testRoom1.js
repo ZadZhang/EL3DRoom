@@ -1,15 +1,8 @@
-var msjstation;
 
-function threeStart () {
-  var initOption = {
-    antialias: true,
-    showHelpGrid: false, // 辅助线
-    clearCoolr: 0x225F93,  // 背景色彩
-    divHeight: $(document).height(),
-    divWidth: $(document).width()
-  };
-  msjstation = new msj3D();
-  var Aobjects = {
+
+function testRoom () {
+  var room = {
+    name: 'testRoom',
     objects: [
       //地板
       {
@@ -4232,6 +4225,5 @@ function threeStart () {
       },
     ]
   }
-  msjstation.initmsj3D('canvas-frame', initOption, Aobjects);
-  msjstation.start();
+  return room;
 }

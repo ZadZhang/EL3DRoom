@@ -22,14 +22,14 @@ msj3D.prototype.start = function () {
   _this.initScene();
   _this.initHelpGrid();
   _this.initLight();
-  _this.addTestObj();
+  // _this.addTestObj();
   //添加3D对象
   $.each(_this.objList, function (index, _obj) {
     _this.InitAddObject(_obj);
   });
   _this.initMouseCtrl();
   //创建按钮
-  _this.addBtns(_this.btns);
+  // _this.addBtns(_this.btns);
 
   _this.animation();
 

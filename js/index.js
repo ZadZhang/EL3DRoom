@@ -1,3 +1,39 @@
+/**
+ * 初始化选项
+ */
+var loadRoom = {};
+
+/**
+ * three.js 渲染工具
+ */
+var msjstation = new msj3D();
+
+/**
+ * 渲染入口
+ * @param {*} room 需要渲染的房间
+ */
+function mainStart (room) {
+  var initOption = {
+    antialias: true,
+    showHelpGrid: false, // 辅助线
+    clearCoolr: 0x225F93,  // 背景色彩
+    divHeight: $(document).height(),
+    divWidth: $(document).width()
+  };
+  switch (room) {
+    case 'testRoom':
+      loadRoom = testRoom();
+      window.location.href = './views/' + room;
+      break;
+    default:
+      loadRoom = initRoomFun();
+      break;
+  }
+  console.log(loadRoom);
+  msjstation.initmsj3D('canvas-frame', initOption, loadRoom);
+  msjstation.start();
+}
+
 function toggleBtnText (obj) {
   var parent = $(obj).parents("div");
   var title = parent.children('#dropdownMenu1');
@@ -6,10 +42,12 @@ function toggleBtnText (obj) {
     li_lists[k].index = k;
     li_lists[k].onclick = function () { //判断哪一个li标签被点击
       title.text($(this).children('a').text())
+      mainStart('testRoom');
       // console.log(this.children('a').text());
     }
   }
 }
+
 function closeInfoModal () {
   $("#infoModal").modal('hide');
   $('#equip-id').val('');
@@ -30,6 +68,7 @@ function showEquipDetialInfo (_obj, func) {
   $('#equip-date').val(_obj.userData.created_at);
   $('#infoModal').modal('show');
 }
+
 function openControlView () {
   $('#myModal').modal('show');
 }
@@ -37,3 +76,5 @@ function openControlView () {
 function closeControlView () {
   $('#myModal').modal('hide');
 }
+
+
