@@ -23,7 +23,7 @@ function mainStart (room) {
   switch (room) {
     case 'testRoom':
       loadRoom = testRoom();
-      window.location.href = './views/' + room;
+      window.location.href = '../template/' + room;
       break;
     default:
       loadRoom = initRoomFun();
