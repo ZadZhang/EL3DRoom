@@ -23,7 +23,7 @@ function initRoomFun () {
           skin: {
             skin_up: {
               skinColor: 0x98750f,
-              imgurl: "../images/floor.jpg",
+              imgurl: "images/floor.jpg",
               repeatx: true,
               repeaty: true,
               width: 128,
@@ -367,11 +367,11 @@ function initRoomFun () {
                   },
                   skin_left: {
                     skinColor: 0x51443e,
-                    imgurl: "../images/door_left.png",
+                    imgurl: "images/door_left.png",
                   },
                   skin_right: {
                     skinColor: 0x51443e,
-                    imgurl: "../images/door_right.png",
+                    imgurl: "images/door_right.png",
                   }
                 },
               },
@@ -408,11 +408,11 @@ function initRoomFun () {
                   },
                   skin_left: {
                     skinColor: 0x51443e,
-                    imgurl: "../images/door_right.png",
+                    imgurl: "images/door_right.png",
                   },
                   skin_right: {
                     skinColor: 0x51443e,
-                    imgurl: "../images/door_left.png",
+                    imgurl: "images/door_left.png",
                   }
                 },
               },
@@ -449,7 +449,7 @@ function initRoomFun () {
                   },
                   skin_left: {
                     skinColor: 0x333333,
-                    imgurl: "../images/doorControl.jpg",
+                    imgurl: "images/doorControl.jpg",
                   },
                   skin_right: {
                     skinColor: 0x333333,
@@ -619,7 +619,7 @@ function initRoomFun () {
           skinColor: 0xfefefe,
           skin: {
             skin_fore: {
-              imgurl: "../images/aircondition.jpg",
+              imgurl: "images/aircondition.jpg",
             },
           }
         }
@@ -641,7 +641,7 @@ function initRoomFun () {
           skinColor: 0x555555,
           skin: {
             skin_fore: {
-              imgurl: "../images/tv.jpg",
+              imgurl: "images/tv.jpg",
             },
           }
         }
@@ -664,10 +664,10 @@ function initRoomFun () {
           skins: [{
             skinColor: 0x333333,
             skin_fore: {
-              imgurl: "../images/rack_door_back.jpg",
+              imgurl: "images/rack_door_back.jpg",
             },
             skin_behind: {
-              imgurl: "../images/rack_front_door.jpg",
+              imgurl: "images/rack_front_door.jpg",
             }
           }]
         },
@@ -676,18 +676,18 @@ function initRoomFun () {
           skin_up: {
             skin: {
               skinColor: 0xff0000,
-              skin_up: { imgurl: "../images/rack_door_back.jpg" },
-              skin_down: { imgurl: "../images/rack_door_back.jpg" },
+              skin_up: { imgurl: "images/rack_door_back.jpg" },
+              skin_down: { imgurl: "images/rack_door_back.jpg" },
               skin_fore: {
                 skinColor: 0xff0000,
-                imgurl: "../images/rack_door_back.jpg"
+                imgurl: "images/rack_door_back.jpg"
               },
               skin_behind: {
                 skinColor: 0xff0000,
-                imgurl: "../images/rack_door_back.jpg"
+                imgurl: "images/rack_door_back.jpg"
               },
-              skin_left: { imgurl: "../images/rack_door_back.jpg" },
-              skin_right: { imgurl: "../images/rack_door_back.jpg" },
+              skin_left: { imgurl: "images/rack_door_back.jpg" },
+              skin_right: { imgurl: "images/rack_door_back.jpg" },
             }
           },
           skin_down: {
@@ -729,27 +729,27 @@ function initRoomFun () {
           skin: {
             skin_up: {
               skinColor: 0xff0000,
-              imgurl: "../images/rack_inside.jpg",
+              imgurl: "images/rack_inside.jpg",
             },
             skin_down: {
               skinColor: 0xff0000,
-              imgurl: "../images/rack_inside.jpg",
+              imgurl: "images/rack_inside.jpg",
             },
             skin_fore: {
               skinColor: 0xff0000,
-              imgurl: "../images/rack_inside.jpg",
+              imgurl: "images/rack_inside.jpg",
             },
             skin_behind: {
               skinColor: 0xff0000,
-              imgurl: "../images/server2.jpg",
+              imgurl: "images/server2.jpg",
             },
             skin_left: {
               skinColor: 0xff0000,
-              imgurl: "../images/rack_inside.jpg",
+              imgurl: "images/rack_inside.jpg",
             },
             skin_right: {
               skinColor: 0xff0000,
-              imgurl: "../images/rack_inside.jpg",
+              imgurl: "images/rack_inside.jpg",
             }
           }
         }
@@ -771,27 +771,27 @@ function initRoomFun () {
           skin: {
             skin_up: {
               skinColor: 0x92630b,
-              imgurl: "../images/rack_inside.jpg",
+              imgurl: "images/rack_inside.jpg",
             },
             skin_down: {
               skinColor: 0x92630b,
-              imgurl: "../images/rack_inside.jpg",
+              imgurl: "images/rack_inside.jpg",
             },
             skin_fore: {
               skinColor: 0x92630b,
-              imgurl: "../images/rack_inside.jpg",
+              imgurl: "images/rack_inside.jpg",
             },
             skin_behind: {
               skinColor: 0x92630b,
-              imgurl: "../images/server2.jpg",
+              imgurl: "images/server2.jpg",
             },
             skin_left: {
               skinColor: 0x92630b,
-              imgurl: "../images/rack_inside.jpg",
+              imgurl: "images/rack_inside.jpg",
             },
             skin_right: {
               skinColor: 0x92630b,
-              imgurl: "../images/rack_inside.jpg",
+              imgurl: "images/rack_inside.jpg",
             }
           }
         }
@@ -813,27 +813,27 @@ function initRoomFun () {
           skin: {
             skin_up: {
               skinColor: 0x92630b,
-              imgurl: "../images/rack_inside.jpg",
+              imgurl: "images/rack_inside.jpg",
             },
             skin_down: {
               skinColor: 0x92630b,
-              imgurl: "../images/rack_inside.jpg",
+              imgurl: "images/rack_inside.jpg",
             },
             skin_fore: {
               skinColor: 0x92630b,
-              imgurl: "../images/rack_inside.jpg",
+              imgurl: "images/rack_inside.jpg",
             },
             skin_behind: {
               skinColor: 0x92630b,
-              imgurl: "../images/server3.jpg",
+              imgurl: "images/server3.jpg",
             },
             skin_left: {
               skinColor: 0x92630b,
-              imgurl: "../images/rack_inside.jpg",
+              imgurl: "images/rack_inside.jpg",
             },
             skin_right: {
               skinColor: 0x92630b,
-              imgurl: "../images/rack_inside.jpg",
+              imgurl: "images/rack_inside.jpg",
             }
           }
         }

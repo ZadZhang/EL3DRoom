@@ -1,5 +1,4 @@
 
-
 function testRoom () {
   var room = {
     name: 'testRoom',
@@ -22,7 +21,7 @@ function testRoom () {
           skin: {
             skin_up: {
               skinColor: 0x98750f,
-              imgurl: "images/floor.jpg",
+              imgurl: "../../images/floor.jpg",
               repeatx: true,
               repeaty: true,
               width: 128,
@@ -309,11 +308,11 @@ function testRoom () {
                   },
                   skin_left: {
                     skinColor: 0x51443e,
-                    imgurl: "images/door_left.png",
+                    imgurl: "../../images/door_left.png",
                   },
                   skin_right: {
                     skinColor: 0x51443e,
-                    imgurl: "images/door_right.png",
+                    imgurl: "../../images/door_right.png",
                   }
                 },
               },
@@ -801,11 +800,11 @@ function testRoom () {
                   },
                   skin_fore: {
                     skinColor: 0x51443e,
-                    imgurl: "images/door_left.png",
+                    imgurl: "../../images/door_left.png",
                   },
                   skin_behind: {
                     skinColor: 0x51443e,
-                    imgurl: "images/door_right.png",
+                    imgurl: "../../images/door_right.png",
                   },
                   skin_left: {
                     skinColor: 0x51443e,
@@ -842,11 +841,11 @@ function testRoom () {
                   },
                   skin_fore: {
                     skinColor: 0x51443e,
-                    imgurl: "images/door_right.png",
+                    imgurl: "../../images/door_right.png",
                   },
                   skin_behind: {
                     skinColor: 0x51443e,
-                    imgurl: "images/door_left.png",
+                    imgurl: "../../images/door_left.png",
                   },
                   skin_left: {
                     skinColor: 0x51443e,
@@ -883,11 +882,11 @@ function testRoom () {
                   },
                   skin_fore: {
                     skinColor: 0x51443e,
-                    imgurl: "images/door_left.png",
+                    imgurl: "../../images/door_left.png",
                   },
                   skin_behind: {
                     skinColor: 0x51443e,
-                    imgurl: "images/door_right.png",
+                    imgurl: "../../images/door_right.png",
                   },
                   skin_left: {
                     skinColor: 0x51443e,
@@ -1160,11 +1159,11 @@ function testRoom () {
                   },
                   skin_left: {
                     skinColor: 0x51443e,
-                    imgurl: "images/door_right.png",
+                    imgurl: "../../images/door_right.png",
                   },
                   skin_right: {
                     skinColor: 0x51443e,
-                    imgurl: "images/door_left.png",
+                    imgurl: "../../images/door_left.png",
                   }
                 },
               },
@@ -1264,27 +1263,27 @@ function testRoom () {
           skin: {
             skin_up: {
               skinColor: 0xffdddd,
-              imgurl: 'images/desk.jpg'
+              imgurl: '../../images/desk.jpg'
             },
             skin_down: {
               skinColor: 0xdddddd,
-              imgurl: 'images/desk.jpg'
+              imgurl: '../../images/desk.jpg'
             },
             skin_fore: {
               skinColor: 0xffdddd,
-              imgurl: 'images/desk.jpg'
+              imgurl: '../../images/desk.jpg'
             },
             skin_behind: {
               skinColor: 0xffdddd,
-              imgurl: 'images/desk.jpg'
+              imgurl: '../../images/desk.jpg'
             },
             skin_left: {
               skinColor: 0xffdddd,
-              imgurl: 'images/desk.jpg'
+              imgurl: '../../images/desk.jpg'
             },
             skin_right: {
               skinColor: 0xffdddd,
-              imgurl: 'images/desk.jpg'
+              imgurl: '../../images/desk.jpg'
             }
           },
         }
@@ -1306,7 +1305,7 @@ function testRoom () {
           skinColor: 0xfefefe,
           skin: {
             skin_fore: {
-              imgurl: "images/aircondition.jpg",
+              imgurl: "../../images/aircondition.jpg",
             },
           }
         }
@@ -1328,7 +1327,7 @@ function testRoom () {
           skinColor: 0xfefefe,
           skin: {
             skin_fore: {
-              imgurl: "images/aircondition.jpg",
+              imgurl: "../../images/aircondition.jpg",
             },
           }
         }
@@ -1359,10 +1358,10 @@ function testRoom () {
           skins: [{
             skinColor: 0x333333,
             skin_fore: {
-              imgurl: "images/rack_door_back.jpg",
+              imgurl: "../../images/rack_door_back.jpg",
             },
             skin_behind: {
-              imgurl: "images/rack_front_door_1.jpg",
+              imgurl: "../../images/rack_front_door_1.jpg",
             }
           }],
         },
@@ -1371,18 +1370,18 @@ function testRoom () {
           skin_up: {
             skin: {
               skinColor: 0xffffff,
-              skin_up: { imgurl: "images/rack_door_back.jpg" },
-              skin_down: { imgurl: "images/rack_door_back.jpg" },
+              skin_up: { imgurl: "../../images/rack_door_back.jpg" },
+              skin_down: { imgurl: "../../images/rack_door_back.jpg" },
               skin_fore: {
                 skinColor: 0xff0000,
-                imgurl: "images/rack_door_back.jpg"
+                imgurl: "../../images/rack_door_back.jpg"
               },
               skin_behind: {
                 skinColor: 0xff0000,
-                imgurl: "images/rack_door_back.jpg"
+                imgurl: "../../images/rack_door_back.jpg"
               },
-              skin_left: { imgurl: "images/rack_door_back.jpg" },
-              skin_right: { imgurl: "images/rack_door_back.jpg" },
+              skin_left: { imgurl: "../../images/rack_door_back.jpg" },
+              skin_right: { imgurl: "../../images/rack_door_back.jpg" },
             }
           },
           skin_down: {
@@ -1425,10 +1424,10 @@ function testRoom () {
           skins: [{
             skinColor: 0x333333,
             skin_fore: {
-              imgurl: "images/rack_door_back.jpg",
+              imgurl: "../../images/rack_door_back.jpg",
             },
             skin_behind: {
-              imgurl: "images/rack_front_door_2.jpg",
+              imgurl: "../../images/rack_front_door_2.jpg",
             }
           }],
         },
@@ -1437,18 +1436,18 @@ function testRoom () {
           skin_up: {
             skin: {
               skinColor: 0xffffff,
-              skin_up: { imgurl: "images/rack_door_back.jpg" },
-              skin_down: { imgurl: "images/rack_door_back.jpg" },
+              skin_up: { imgurl: "../../images/rack_door_back.jpg" },
+              skin_down: { imgurl: "../../images/rack_door_back.jpg" },
               skin_fore: {
                 skinColor: 0xff0000,
-                imgurl: "images/rack_door_back.jpg"
+                imgurl: "../../images/rack_door_back.jpg"
               },
               skin_behind: {
                 skinColor: 0xff0000,
-                imgurl: "images/rack_door_back.jpg"
+                imgurl: "../../images/rack_door_back.jpg"
               },
-              skin_left: { imgurl: "images/rack_door_back.jpg" },
-              skin_right: { imgurl: "images/rack_door_back.jpg" },
+              skin_left: { imgurl: "../../images/rack_door_back.jpg" },
+              skin_right: { imgurl: "../../images/rack_door_back.jpg" },
             }
           },
           skin_down: {
@@ -1491,10 +1490,10 @@ function testRoom () {
           skins: [{
             skinColor: 0x333333,
             skin_fore: {
-              imgurl: "images/rack_door_back.jpg",
+              imgurl: "../../images/rack_door_back.jpg",
             },
             skin_behind: {
-              imgurl: "images/rack_front_door_3.jpg",
+              imgurl: "../../images/rack_front_door_3.jpg",
             }
           }],
         },
@@ -1503,18 +1502,18 @@ function testRoom () {
           skin_up: {
             skin: {
               skinColor: 0xffffff,
-              skin_up: { imgurl: "images/rack_door_back.jpg" },
-              skin_down: { imgurl: "images/rack_door_back.jpg" },
+              skin_up: { imgurl: "../../images/rack_door_back.jpg" },
+              skin_down: { imgurl: "../../images/rack_door_back.jpg" },
               skin_fore: {
                 skinColor: 0xff0000,
-                imgurl: "images/rack_door_back.jpg"
+                imgurl: "../../images/rack_door_back.jpg"
               },
               skin_behind: {
                 skinColor: 0xff0000,
-                imgurl: "images/rack_door_back.jpg"
+                imgurl: "../../images/rack_door_back.jpg"
               },
-              skin_left: { imgurl: "images/rack_door_back.jpg" },
-              skin_right: { imgurl: "images/rack_door_back.jpg" },
+              skin_left: { imgurl: "../../images/rack_door_back.jpg" },
+              skin_right: { imgurl: "../../images/rack_door_back.jpg" },
             }
           },
           skin_down: {
@@ -1557,10 +1556,10 @@ function testRoom () {
           skins: [{
             skinColor: 0x333333,
             skin_fore: {
-              imgurl: "images/rack_door_back.jpg",
+              imgurl: "../../images/rack_door_back.jpg",
             },
             skin_behind: {
-              imgurl: "images/rack_front_door_4.jpg",
+              imgurl: "../../images/rack_front_door_4.jpg",
             }
           }],
         },
@@ -1569,18 +1568,18 @@ function testRoom () {
           skin_up: {
             skin: {
               skinColor: 0xffffff,
-              skin_up: { imgurl: "images/rack_door_back.jpg" },
-              skin_down: { imgurl: "images/rack_door_back.jpg" },
+              skin_up: { imgurl: "../../images/rack_door_back.jpg" },
+              skin_down: { imgurl: "../../images/rack_door_back.jpg" },
               skin_fore: {
                 skinColor: 0xff0000,
-                imgurl: "images/rack_door_back.jpg"
+                imgurl: "../../images/rack_door_back.jpg"
               },
               skin_behind: {
                 skinColor: 0xff0000,
-                imgurl: "images/rack_door_back.jpg"
+                imgurl: "../../images/rack_door_back.jpg"
               },
-              skin_left: { imgurl: "images/rack_door_back.jpg" },
-              skin_right: { imgurl: "images/rack_door_back.jpg" },
+              skin_left: { imgurl: "../../images/rack_door_back.jpg" },
+              skin_right: { imgurl: "../../images/rack_door_back.jpg" },
             }
           },
           skin_down: {
@@ -1623,10 +1622,10 @@ function testRoom () {
           skins: [{
             skinColor: 0x333333,
             skin_fore: {
-              imgurl: "images/rack_door_back.jpg",
+              imgurl: "../../images/rack_door_back.jpg",
             },
             skin_behind: {
-              imgurl: "images/rack_front_door_5.jpg",
+              imgurl: "../../images/rack_front_door_5.jpg",
             }
           }],
         },
@@ -1635,18 +1634,18 @@ function testRoom () {
           skin_up: {
             skin: {
               skinColor: 0xffffff,
-              skin_up: { imgurl: "images/rack_door_back.jpg" },
-              skin_down: { imgurl: "images/rack_door_back.jpg" },
+              skin_up: { imgurl: "../../images/rack_door_back.jpg" },
+              skin_down: { imgurl: "../../images/rack_door_back.jpg" },
               skin_fore: {
                 skinColor: 0xff0000,
-                imgurl: "images/rack_door_back.jpg"
+                imgurl: "../../images/rack_door_back.jpg"
               },
               skin_behind: {
                 skinColor: 0xff0000,
-                imgurl: "images/rack_door_back.jpg"
+                imgurl: "../../images/rack_door_back.jpg"
               },
-              skin_left: { imgurl: "images/rack_door_back.jpg" },
-              skin_right: { imgurl: "images/rack_door_back.jpg" },
+              skin_left: { imgurl: "../../images/rack_door_back.jpg" },
+              skin_right: { imgurl: "../../images/rack_door_back.jpg" },
             }
           },
           skin_down: {
@@ -1689,10 +1688,10 @@ function testRoom () {
           skins: [{
             skinColor: 0x333333,
             skin_fore: {
-              imgurl: "images/rack_door_back.jpg",
+              imgurl: "../../images/rack_door_back.jpg",
             },
             skin_behind: {
-              imgurl: "images/rack_front_door_6.jpg",
+              imgurl: "../../images/rack_front_door_6.jpg",
             }
           }],
         },
@@ -1701,18 +1700,18 @@ function testRoom () {
           skin_up: {
             skin: {
               skinColor: 0xffffff,
-              skin_up: { imgurl: "images/rack_door_back.jpg" },
-              skin_down: { imgurl: "images/rack_door_back.jpg" },
+              skin_up: { imgurl: "../../images/rack_door_back.jpg" },
+              skin_down: { imgurl: "../../images/rack_door_back.jpg" },
               skin_fore: {
                 skinColor: 0xff0000,
-                imgurl: "images/rack_door_back.jpg"
+                imgurl: "../../images/rack_door_back.jpg"
               },
               skin_behind: {
                 skinColor: 0xff0000,
-                imgurl: "images/rack_door_back.jpg"
+                imgurl: "../../images/rack_door_back.jpg"
               },
-              skin_left: { imgurl: "images/rack_door_back.jpg" },
-              skin_right: { imgurl: "images/rack_door_back.jpg" },
+              skin_left: { imgurl: "../../images/rack_door_back.jpg" },
+              skin_right: { imgurl: "../../images/rack_door_back.jpg" },
             }
           },
           skin_down: {
@@ -1755,10 +1754,10 @@ function testRoom () {
           skins: [{
             skinColor: 0x333333,
             skin_fore: {
-              imgurl: "images/rack_door_back.jpg",
+              imgurl: "../../images/rack_door_back.jpg",
             },
             skin_behind: {
-              imgurl: "images/rack_front_door_7.jpg",
+              imgurl: "../../images/rack_front_door_7.jpg",
             }
           }],
         },
@@ -1767,18 +1766,18 @@ function testRoom () {
           skin_up: {
             skin: {
               skinColor: 0xffffff,
-              skin_up: { imgurl: "images/rack_door_back.jpg" },
-              skin_down: { imgurl: "images/rack_door_back.jpg" },
+              skin_up: { imgurl: "../../images/rack_door_back.jpg" },
+              skin_down: { imgurl: "../../images/rack_door_back.jpg" },
               skin_fore: {
                 skinColor: 0xff0000,
-                imgurl: "images/rack_door_back.jpg"
+                imgurl: "../../images/rack_door_back.jpg"
               },
               skin_behind: {
                 skinColor: 0xff0000,
-                imgurl: "images/rack_door_back.jpg"
+                imgurl: "../../images/rack_door_back.jpg"
               },
-              skin_left: { imgurl: "images/rack_door_back.jpg" },
-              skin_right: { imgurl: "images/rack_door_back.jpg" },
+              skin_left: { imgurl: "../../images/rack_door_back.jpg" },
+              skin_right: { imgurl: "../../images/rack_door_back.jpg" },
             }
           },
           skin_down: {
@@ -1821,10 +1820,10 @@ function testRoom () {
           skins: [{
             skinColor: 0x333333,
             skin_fore: {
-              imgurl: "images/rack_door_back.jpg",
+              imgurl: "../../images/rack_door_back.jpg",
             },
             skin_behind: {
-              imgurl: "images/rack_front_door_8.jpg",
+              imgurl: "../../images/rack_front_door_8.jpg",
             }
           }],
         },
@@ -1833,18 +1832,18 @@ function testRoom () {
           skin_up: {
             skin: {
               skinColor: 0xffffff,
-              skin_up: { imgurl: "images/rack_door_back.jpg" },
-              skin_down: { imgurl: "images/rack_door_back.jpg" },
+              skin_up: { imgurl: "../../images/rack_door_back.jpg" },
+              skin_down: { imgurl: "../../images/rack_door_back.jpg" },
               skin_fore: {
                 skinColor: 0xff0000,
-                imgurl: "images/rack_door_back.jpg"
+                imgurl: "../../images/rack_door_back.jpg"
               },
               skin_behind: {
                 skinColor: 0xff0000,
-                imgurl: "images/rack_door_back.jpg"
+                imgurl: "../../images/rack_door_back.jpg"
               },
-              skin_left: { imgurl: "images/rack_door_back.jpg" },
-              skin_right: { imgurl: "images/rack_door_back.jpg" },
+              skin_left: { imgurl: "../../images/rack_door_back.jpg" },
+              skin_right: { imgurl: "../../images/rack_door_back.jpg" },
             }
           },
           skin_down: {
@@ -1887,10 +1886,10 @@ function testRoom () {
           skins: [{
             skinColor: 0x333333,
             skin_fore: {
-              imgurl: "images/rack_door_back.jpg",
+              imgurl: "../../images/rack_door_back.jpg",
             },
             skin_behind: {
-              imgurl: "images/rack_front_door_9.jpg",
+              imgurl: "../../images/rack_front_door_9.jpg",
             }
           }],
         },
@@ -1899,18 +1898,18 @@ function testRoom () {
           skin_up: {
             skin: {
               skinColor: 0xffffff,
-              skin_up: { imgurl: "images/rack_door_back.jpg" },
-              skin_down: { imgurl: "images/rack_door_back.jpg" },
+              skin_up: { imgurl: "../../images/rack_door_back.jpg" },
+              skin_down: { imgurl: "../../images/rack_door_back.jpg" },
               skin_fore: {
                 skinColor: 0xff0000,
-                imgurl: "images/rack_door_back.jpg"
+                imgurl: "../../images/rack_door_back.jpg"
               },
               skin_behind: {
                 skinColor: 0xff0000,
-                imgurl: "images/rack_door_back.jpg"
+                imgurl: "../../images/rack_door_back.jpg"
               },
-              skin_left: { imgurl: "images/rack_door_back.jpg" },
-              skin_right: { imgurl: "images/rack_door_back.jpg" },
+              skin_left: { imgurl: "../../images/rack_door_back.jpg" },
+              skin_right: { imgurl: "../../images/rack_door_back.jpg" },
             }
           },
           skin_down: {
@@ -1953,10 +1952,10 @@ function testRoom () {
           skins: [{
             skinColor: 0x333333,
             skin_fore: {
-              imgurl: "images/rack_door_back.jpg",
+              imgurl: "../../images/rack_door_back.jpg",
             },
             skin_behind: {
-              imgurl: "images/rack_front_door_10.jpg",
+              imgurl: "../../images/rack_front_door_10.jpg",
             }
           }],
         },
@@ -1965,18 +1964,18 @@ function testRoom () {
           skin_up: {
             skin: {
               skinColor: 0xffffff,
-              skin_up: { imgurl: "images/rack_door_back.jpg" },
-              skin_down: { imgurl: "images/rack_door_back.jpg" },
+              skin_up: { imgurl: "../../images/rack_door_back.jpg" },
+              skin_down: { imgurl: "../../images/rack_door_back.jpg" },
               skin_fore: {
                 skinColor: 0xff0000,
-                imgurl: "images/rack_door_back.jpg"
+                imgurl: "../../images/rack_door_back.jpg"
               },
               skin_behind: {
                 skinColor: 0xff0000,
-                imgurl: "images/rack_door_back.jpg"
+                imgurl: "../../images/rack_door_back.jpg"
               },
-              skin_left: { imgurl: "images/rack_door_back.jpg" },
-              skin_right: { imgurl: "images/rack_door_back.jpg" },
+              skin_left: { imgurl: "../../images/rack_door_back.jpg" },
+              skin_right: { imgurl: "../../images/rack_door_back.jpg" },
             }
           },
           skin_down: {
@@ -2019,10 +2018,10 @@ function testRoom () {
           skins: [{
             skinColor: 0x333333,
             skin_fore: {
-              imgurl: "images/rack_door_back.jpg",
+              imgurl: "../../images/rack_door_back.jpg",
             },
             skin_behind: {
-              imgurl: "images/rack_front_door_11.jpg",
+              imgurl: "../../images/rack_front_door_11.jpg",
             }
           }],
         },
@@ -2031,18 +2030,18 @@ function testRoom () {
           skin_up: {
             skin: {
               skinColor: 0xffffff,
-              skin_up: { imgurl: "images/rack_door_back.jpg" },
-              skin_down: { imgurl: "images/rack_door_back.jpg" },
+              skin_up: { imgurl: "../../images/rack_door_back.jpg" },
+              skin_down: { imgurl: "../../images/rack_door_back.jpg" },
               skin_fore: {
                 skinColor: 0xff0000,
-                imgurl: "images/rack_door_back.jpg"
+                imgurl: "../../images/rack_door_back.jpg"
               },
               skin_behind: {
                 skinColor: 0xff0000,
-                imgurl: "images/rack_door_back.jpg"
+                imgurl: "../../images/rack_door_back.jpg"
               },
-              skin_left: { imgurl: "images/rack_door_back.jpg" },
-              skin_right: { imgurl: "images/rack_door_back.jpg" },
+              skin_left: { imgurl: "../../images/rack_door_back.jpg" },
+              skin_right: { imgurl: "../../images/rack_door_back.jpg" },
             }
           },
           skin_down: {
@@ -2085,10 +2084,10 @@ function testRoom () {
           skins: [{
             skinColor: 0x333333,
             skin_fore: {
-              imgurl: "images/rack_door_back.jpg",
+              imgurl: "../../images/rack_door_back.jpg",
             },
             skin_behind: {
-              imgurl: "images/rack_front_door_0.jpg",
+              imgurl: "../../images/rack_front_door_0.jpg",
             }
           }],
         },
@@ -2097,18 +2096,18 @@ function testRoom () {
           skin_up: {
             skin: {
               skinColor: 0xffffff,
-              skin_up: { imgurl: "images/rack_door_back.jpg" },
-              skin_down: { imgurl: "images/rack_door_back.jpg" },
+              skin_up: { imgurl: "../../images/rack_door_back.jpg" },
+              skin_down: { imgurl: "../../images/rack_door_back.jpg" },
               skin_fore: {
                 skinColor: 0xff0000,
-                imgurl: "images/rack_door_back.jpg"
+                imgurl: "../../images/rack_door_back.jpg"
               },
               skin_behind: {
                 skinColor: 0xff0000,
-                imgurl: "images/rack_door_back.jpg"
+                imgurl: "../../images/rack_door_back.jpg"
               },
-              skin_left: { imgurl: "images/rack_door_back.jpg" },
-              skin_right: { imgurl: "images/rack_door_back.jpg" },
+              skin_left: { imgurl: "../../images/rack_door_back.jpg" },
+              skin_right: { imgurl: "../../images/rack_door_back.jpg" },
             }
           },
           skin_down: {
@@ -2151,10 +2150,10 @@ function testRoom () {
           skins: [{
             skinColor: 0x333333,
             skin_fore: {
-              imgurl: "images/rack_door_back.jpg",
+              imgurl: "../../images/rack_door_back.jpg",
             },
             skin_behind: {
-              imgurl: "images/rack_front_door_0.jpg",
+              imgurl: "../../images/rack_front_door_0.jpg",
             }
           }],
         },
@@ -2163,18 +2162,18 @@ function testRoom () {
           skin_up: {
             skin: {
               skinColor: 0xffffff,
-              skin_up: { imgurl: "images/rack_door_back.jpg" },
-              skin_down: { imgurl: "images/rack_door_back.jpg" },
+              skin_up: { imgurl: "../../images/rack_door_back.jpg" },
+              skin_down: { imgurl: "../../images/rack_door_back.jpg" },
               skin_fore: {
                 skinColor: 0xff0000,
-                imgurl: "images/rack_door_back.jpg"
+                imgurl: "../../images/rack_door_back.jpg"
               },
               skin_behind: {
                 skinColor: 0xff0000,
-                imgurl: "images/rack_door_back.jpg"
+                imgurl: "../../images/rack_door_back.jpg"
               },
-              skin_left: { imgurl: "images/rack_door_back.jpg" },
-              skin_right: { imgurl: "images/rack_door_back.jpg" },
+              skin_left: { imgurl: "../../images/rack_door_back.jpg" },
+              skin_right: { imgurl: "../../images/rack_door_back.jpg" },
             }
           },
           skin_down: {
@@ -2217,10 +2216,10 @@ function testRoom () {
           skins: [{
             skinColor: 0x333333,
             skin_fore: {
-              imgurl: "images/rack_door_back.jpg",
+              imgurl: "../../images/rack_door_back.jpg",
             },
             skin_behind: {
-              imgurl: "images/rack_front_door_0.jpg",
+              imgurl: "../../images/rack_front_door_0.jpg",
             }
           }],
         },
@@ -2229,18 +2228,18 @@ function testRoom () {
           skin_up: {
             skin: {
               skinColor: 0xffffff,
-              skin_up: { imgurl: "images/rack_door_back.jpg" },
-              skin_down: { imgurl: "images/rack_door_back.jpg" },
+              skin_up: { imgurl: "../../images/rack_door_back.jpg" },
+              skin_down: { imgurl: "../../images/rack_door_back.jpg" },
               skin_fore: {
                 skinColor: 0xff0000,
-                imgurl: "images/rack_door_back.jpg"
+                imgurl: "../../images/rack_door_back.jpg"
               },
               skin_behind: {
                 skinColor: 0xff0000,
-                imgurl: "images/rack_door_back.jpg"
+                imgurl: "../../images/rack_door_back.jpg"
               },
-              skin_left: { imgurl: "images/rack_door_back.jpg" },
-              skin_right: { imgurl: "images/rack_door_back.jpg" },
+              skin_left: { imgurl: "../../images/rack_door_back.jpg" },
+              skin_right: { imgurl: "../../images/rack_door_back.jpg" },
             }
           },
           skin_down: {
@@ -2283,10 +2282,10 @@ function testRoom () {
           skins: [{
             skinColor: 0x333333,
             skin_fore: {
-              imgurl: "images/rack_door_back.jpg",
+              imgurl: "../../images/rack_door_back.jpg",
             },
             skin_behind: {
-              imgurl: "images/rack_front_door_0.jpg",
+              imgurl: "../../images/rack_front_door_0.jpg",
             }
           }],
         },
@@ -2295,18 +2294,18 @@ function testRoom () {
           skin_up: {
             skin: {
               skinColor: 0xffffff,
-              skin_up: { imgurl: "images/rack_door_back.jpg" },
-              skin_down: { imgurl: "images/rack_door_back.jpg" },
+              skin_up: { imgurl: "../../images/rack_door_back.jpg" },
+              skin_down: { imgurl: "../../images/rack_door_back.jpg" },
               skin_fore: {
                 skinColor: 0xff0000,
-                imgurl: "images/rack_door_back.jpg"
+                imgurl: "../../images/rack_door_back.jpg"
               },
               skin_behind: {
                 skinColor: 0xff0000,
-                imgurl: "images/rack_door_back.jpg"
+                imgurl: "../../images/rack_door_back.jpg"
               },
-              skin_left: { imgurl: "images/rack_door_back.jpg" },
-              skin_right: { imgurl: "images/rack_door_back.jpg" },
+              skin_left: { imgurl: "../../images/rack_door_back.jpg" },
+              skin_right: { imgurl: "../../images/rack_door_back.jpg" },
             }
           },
           skin_down: {
@@ -2349,10 +2348,10 @@ function testRoom () {
           skins: [{
             skinColor: 0x333333,
             skin_fore: {
-              imgurl: "images/rack_door_back.jpg",
+              imgurl: "../../images/rack_door_back.jpg",
             },
             skin_behind: {
-              imgurl: "images/rack_front_door_0.jpg",
+              imgurl: "../../images/rack_front_door_0.jpg",
             }
           }],
         },
@@ -2361,18 +2360,18 @@ function testRoom () {
           skin_up: {
             skin: {
               skinColor: 0xffffff,
-              skin_up: { imgurl: "images/rack_door_back.jpg" },
-              skin_down: { imgurl: "images/rack_door_back.jpg" },
+              skin_up: { imgurl: "../../images/rack_door_back.jpg" },
+              skin_down: { imgurl: "../../images/rack_door_back.jpg" },
               skin_fore: {
                 skinColor: 0xff0000,
-                imgurl: "images/rack_door_back.jpg"
+                imgurl: "../../images/rack_door_back.jpg"
               },
               skin_behind: {
                 skinColor: 0xff0000,
-                imgurl: "images/rack_door_back.jpg"
+                imgurl: "../../images/rack_door_back.jpg"
               },
-              skin_left: { imgurl: "images/rack_door_back.jpg" },
-              skin_right: { imgurl: "images/rack_door_back.jpg" },
+              skin_left: { imgurl: "../../images/rack_door_back.jpg" },
+              skin_right: { imgurl: "../../images/rack_door_back.jpg" },
             }
           },
           skin_down: {
@@ -2415,10 +2414,10 @@ function testRoom () {
           skins: [{
             skinColor: 0x333333,
             skin_fore: {
-              imgurl: "images/rack_door_back.jpg",
+              imgurl: "../../images/rack_door_back.jpg",
             },
             skin_behind: {
-              imgurl: "images/rack_front_door_17.jpg",
+              imgurl: "../../images/rack_front_door_17.jpg",
             }
           }],
         },
@@ -2427,18 +2426,18 @@ function testRoom () {
           skin_up: {
             skin: {
               skinColor: 0xffffff,
-              skin_up: { imgurl: "images/rack_door_back.jpg" },
-              skin_down: { imgurl: "images/rack_door_back.jpg" },
+              skin_up: { imgurl: "../../images/rack_door_back.jpg" },
+              skin_down: { imgurl: "../../images/rack_door_back.jpg" },
               skin_fore: {
                 skinColor: 0xff0000,
-                imgurl: "images/rack_door_back.jpg"
+                imgurl: "../../images/rack_door_back.jpg"
               },
               skin_behind: {
                 skinColor: 0xff0000,
-                imgurl: "images/rack_door_back.jpg"
+                imgurl: "../../images/rack_door_back.jpg"
               },
-              skin_left: { imgurl: "images/rack_door_back.jpg" },
-              skin_right: { imgurl: "images/rack_door_back.jpg" },
+              skin_left: { imgurl: "../../images/rack_door_back.jpg" },
+              skin_right: { imgurl: "../../images/rack_door_back.jpg" },
             }
           },
           skin_down: {
@@ -2481,10 +2480,10 @@ function testRoom () {
           skins: [{
             skinColor: 0x333333,
             skin_fore: {
-              imgurl: "images/rack_door_back.jpg",
+              imgurl: "../../images/rack_door_back.jpg",
             },
             skin_behind: {
-              imgurl: "images/rack_front_door_18.jpg",
+              imgurl: "../../images/rack_front_door_18.jpg",
             }
           }],
         },
@@ -2493,18 +2492,18 @@ function testRoom () {
           skin_up: {
             skin: {
               skinColor: 0xffffff,
-              skin_up: { imgurl: "images/rack_door_back.jpg" },
-              skin_down: { imgurl: "images/rack_door_back.jpg" },
+              skin_up: { imgurl: "../../images/rack_door_back.jpg" },
+              skin_down: { imgurl: "../../images/rack_door_back.jpg" },
               skin_fore: {
                 skinColor: 0xff0000,
-                imgurl: "images/rack_door_back.jpg"
+                imgurl: "../../images/rack_door_back.jpg"
               },
               skin_behind: {
                 skinColor: 0xff0000,
-                imgurl: "images/rack_door_back.jpg"
+                imgurl: "../../images/rack_door_back.jpg"
               },
-              skin_left: { imgurl: "images/rack_door_back.jpg" },
-              skin_right: { imgurl: "images/rack_door_back.jpg" },
+              skin_left: { imgurl: "../../images/rack_door_back.jpg" },
+              skin_right: { imgurl: "../../images/rack_door_back.jpg" },
             }
           },
           skin_down: {
@@ -2547,10 +2546,10 @@ function testRoom () {
           skins: [{
             skinColor: 0x333333,
             skin_fore: {
-              imgurl: "images/rack_door_back.jpg",
+              imgurl: "../../images/rack_door_back.jpg",
             },
             skin_behind: {
-              imgurl: "images/rack_front_door_19.jpg",
+              imgurl: "../../images/rack_front_door_19.jpg",
             }
           }],
         },
@@ -2559,18 +2558,18 @@ function testRoom () {
           skin_up: {
             skin: {
               skinColor: 0xffffff,
-              skin_up: { imgurl: "images/rack_door_back.jpg" },
-              skin_down: { imgurl: "images/rack_door_back.jpg" },
+              skin_up: { imgurl: "../../images/rack_door_back.jpg" },
+              skin_down: { imgurl: "../../images/rack_door_back.jpg" },
               skin_fore: {
                 skinColor: 0xff0000,
-                imgurl: "images/rack_door_back.jpg"
+                imgurl: "../../images/rack_door_back.jpg"
               },
               skin_behind: {
                 skinColor: 0xff0000,
-                imgurl: "images/rack_door_back.jpg"
+                imgurl: "../../images/rack_door_back.jpg"
               },
-              skin_left: { imgurl: "images/rack_door_back.jpg" },
-              skin_right: { imgurl: "images/rack_door_back.jpg" },
+              skin_left: { imgurl: "../../images/rack_door_back.jpg" },
+              skin_right: { imgurl: "../../images/rack_door_back.jpg" },
             }
           },
           skin_down: {
@@ -2613,10 +2612,10 @@ function testRoom () {
           skins: [{
             skinColor: 0x333333,
             skin_fore: {
-              imgurl: "images/rack_door_back.jpg",
+              imgurl: "../../images/rack_door_back.jpg",
             },
             skin_behind: {
-              imgurl: "images/rack_front_door_20.jpg",
+              imgurl: "../../images/rack_front_door_20.jpg",
             }
           }],
         },
@@ -2625,18 +2624,18 @@ function testRoom () {
           skin_up: {
             skin: {
               skinColor: 0xffffff,
-              skin_up: { imgurl: "images/rack_door_back.jpg" },
-              skin_down: { imgurl: "images/rack_door_back.jpg" },
+              skin_up: { imgurl: "../../images/rack_door_back.jpg" },
+              skin_down: { imgurl: "../../images/rack_door_back.jpg" },
               skin_fore: {
                 skinColor: 0xff0000,
-                imgurl: "images/rack_door_back.jpg"
+                imgurl: "../../images/rack_door_back.jpg"
               },
               skin_behind: {
                 skinColor: 0xff0000,
-                imgurl: "images/rack_door_back.jpg"
+                imgurl: "../../images/rack_door_back.jpg"
               },
-              skin_left: { imgurl: "images/rack_door_back.jpg" },
-              skin_right: { imgurl: "images/rack_door_back.jpg" },
+              skin_left: { imgurl: "../../images/rack_door_back.jpg" },
+              skin_right: { imgurl: "../../images/rack_door_back.jpg" },
             }
           },
           skin_down: {
@@ -2679,10 +2678,10 @@ function testRoom () {
           skins: [{
             skinColor: 0x333333,
             skin_fore: {
-              imgurl: "images/rack_door_back.jpg",
+              imgurl: "../../images/rack_door_back.jpg",
             },
             skin_behind: {
-              imgurl: "images/rack_front_door_21.jpg",
+              imgurl: "../../images/rack_front_door_21.jpg",
             }
           }],
           children: {
@@ -2708,18 +2707,18 @@ function testRoom () {
           skin_up: {
             skin: {
               skinColor: 0xffffff,
-              skin_up: { imgurl: "images/rack_door_back.jpg" },
-              skin_down: { imgurl: "images/rack_door_back.jpg" },
+              skin_up: { imgurl: "../../images/rack_door_back.jpg" },
+              skin_down: { imgurl: "../../images/rack_door_back.jpg" },
               skin_fore: {
                 skinColor: 0xff0000,
-                imgurl: "images/rack_door_back.jpg"
+                imgurl: "../../images/rack_door_back.jpg"
               },
               skin_behind: {
                 skinColor: 0xff0000,
-                imgurl: "images/rack_door_back.jpg"
+                imgurl: "../../images/rack_door_back.jpg"
               },
-              skin_left: { imgurl: "images/rack_door_back.jpg" },
-              skin_right: { imgurl: "images/rack_door_back.jpg" },
+              skin_left: { imgurl: "../../images/rack_door_back.jpg" },
+              skin_right: { imgurl: "../../images/rack_door_back.jpg" },
             }
           },
           skin_down: {
@@ -2762,10 +2761,10 @@ function testRoom () {
           skins: [{
             skinColor: 0x333333,
             skin_fore: {
-              imgurl: "images/rack_door_back.jpg",
+              imgurl: "../../images/rack_door_back.jpg",
             },
             skin_behind: {
-              imgurl: "images/rack_front_door_22.jpg",
+              imgurl: "../../images/rack_front_door_22.jpg",
             }
           }],
         },
@@ -2774,18 +2773,18 @@ function testRoom () {
           skin_up: {
             skin: {
               skinColor: 0xffffff,
-              skin_up: { imgurl: "images/rack_door_back.jpg" },
-              skin_down: { imgurl: "images/rack_door_back.jpg" },
+              skin_up: { imgurl: "../../images/rack_door_back.jpg" },
+              skin_down: { imgurl: "../../images/rack_door_back.jpg" },
               skin_fore: {
                 skinColor: 0xff0000,
-                imgurl: "images/rack_door_back.jpg"
+                imgurl: "../../images/rack_door_back.jpg"
               },
               skin_behind: {
                 skinColor: 0xff0000,
-                imgurl: "images/rack_door_back.jpg"
+                imgurl: "../../images/rack_door_back.jpg"
               },
-              skin_left: { imgurl: "images/rack_door_back.jpg" },
-              skin_right: { imgurl: "images/rack_door_back.jpg" },
+              skin_left: { imgurl: "../../images/rack_door_back.jpg" },
+              skin_right: { imgurl: "../../images/rack_door_back.jpg" },
             }
           },
           skin_down: {
@@ -2828,10 +2827,10 @@ function testRoom () {
           skins: [{
             skinColor: 0x333333,
             skin_fore: {
-              imgurl: "images/rack_door_back.jpg",
+              imgurl: "../../images/rack_door_back.jpg",
             },
             skin_behind: {
-              imgurl: "images/rack_front_door_23.jpg",
+              imgurl: "../../images/rack_front_door_23.jpg",
             }
           }],
         },
@@ -2840,18 +2839,18 @@ function testRoom () {
           skin_up: {
             skin: {
               skinColor: 0xffffff,
-              skin_up: { imgurl: "images/rack_door_back.jpg" },
-              skin_down: { imgurl: "images/rack_door_back.jpg" },
+              skin_up: { imgurl: "../../images/rack_door_back.jpg" },
+              skin_down: { imgurl: "../../images/rack_door_back.jpg" },
               skin_fore: {
                 skinColor: 0xff0000,
-                imgurl: "images/rack_door_back.jpg"
+                imgurl: "../../images/rack_door_back.jpg"
               },
               skin_behind: {
                 skinColor: 0xff0000,
-                imgurl: "images/rack_door_back.jpg"
+                imgurl: "../../images/rack_door_back.jpg"
               },
-              skin_left: { imgurl: "images/rack_door_back.jpg" },
-              skin_right: { imgurl: "images/rack_door_back.jpg" },
+              skin_left: { imgurl: "../../images/rack_door_back.jpg" },
+              skin_right: { imgurl: "../../images/rack_door_back.jpg" },
             }
           },
           skin_down: {
@@ -2894,10 +2893,10 @@ function testRoom () {
           skins: [{
             skinColor: 0x333333,
             skin_fore: {
-              imgurl: "images/rack_door_back.jpg",
+              imgurl: "../../images/rack_door_back.jpg",
             },
             skin_behind: {
-              imgurl: "images/rack_front_door_23.jpg",
+              imgurl: "../../images/rack_front_door_23.jpg",
             }
           }],
         },
@@ -2906,18 +2905,18 @@ function testRoom () {
           skin_up: {
             skin: {
               skinColor: 0xffffff,
-              skin_up: { imgurl: "images/rack_door_back.jpg" },
-              skin_down: { imgurl: "images/rack_door_back.jpg" },
+              skin_up: { imgurl: "../../images/rack_door_back.jpg" },
+              skin_down: { imgurl: "../../images/rack_door_back.jpg" },
               skin_fore: {
                 skinColor: 0xff0000,
-                imgurl: "images/rack_door_back.jpg"
+                imgurl: "../../images/rack_door_back.jpg"
               },
               skin_behind: {
                 skinColor: 0xff0000,
-                imgurl: "images/rack_door_back.jpg"
+                imgurl: "../../images/rack_door_back.jpg"
               },
-              skin_left: { imgurl: "images/rack_door_back.jpg" },
-              skin_right: { imgurl: "images/rack_door_back.jpg" },
+              skin_left: { imgurl: "../../images/rack_door_back.jpg" },
+              skin_right: { imgurl: "../../images/rack_door_back.jpg" },
             }
           },
           skin_down: {
@@ -2960,10 +2959,10 @@ function testRoom () {
           skins: [{
             skinColor: 0x333333,
             skin_fore: {
-              imgurl: "images/rack_door_back.jpg",
+              imgurl: "../../images/rack_door_back.jpg",
             },
             skin_behind: {
-              imgurl: "images/rack_front_door_25.jpg",
+              imgurl: "../../images/rack_front_door_25.jpg",
             }
           }],
         },
@@ -2972,18 +2971,18 @@ function testRoom () {
           skin_up: {
             skin: {
               skinColor: 0xffffff,
-              skin_up: { imgurl: "images/rack_door_back.jpg" },
-              skin_down: { imgurl: "images/rack_door_back.jpg" },
+              skin_up: { imgurl: "../../images/rack_door_back.jpg" },
+              skin_down: { imgurl: "../../images/rack_door_back.jpg" },
               skin_fore: {
                 skinColor: 0xff0000,
-                imgurl: "images/rack_door_back.jpg"
+                imgurl: "../../images/rack_door_back.jpg"
               },
               skin_behind: {
                 skinColor: 0xff0000,
-                imgurl: "images/rack_door_back.jpg"
+                imgurl: "../../images/rack_door_back.jpg"
               },
-              skin_left: { imgurl: "images/rack_door_back.jpg" },
-              skin_right: { imgurl: "images/rack_door_back.jpg" },
+              skin_left: { imgurl: "../../images/rack_door_back.jpg" },
+              skin_right: { imgurl: "../../images/rack_door_back.jpg" },
             }
           },
           skin_down: {
@@ -3026,10 +3025,10 @@ function testRoom () {
           skins: [{
             skinColor: 0x333333,
             skin_fore: {
-              imgurl: "images/rack_door_back.jpg",
+              imgurl: "../../images/rack_door_back.jpg",
             },
             skin_behind: {
-              imgurl: "images/rack_front_door_25.jpg",
+              imgurl: "../../images/rack_front_door_25.jpg",
             }
           }],
         },
@@ -3038,18 +3037,18 @@ function testRoom () {
           skin_up: {
             skin: {
               skinColor: 0xffffff,
-              skin_up: { imgurl: "images/rack_door_back.jpg" },
-              skin_down: { imgurl: "images/rack_door_back.jpg" },
+              skin_up: { imgurl: "../../images/rack_door_back.jpg" },
+              skin_down: { imgurl: "../../images/rack_door_back.jpg" },
               skin_fore: {
                 skinColor: 0xff0000,
-                imgurl: "images/rack_door_back.jpg"
+                imgurl: "../../images/rack_door_back.jpg"
               },
               skin_behind: {
                 skinColor: 0xff0000,
-                imgurl: "images/rack_door_back.jpg"
+                imgurl: "../../images/rack_door_back.jpg"
               },
-              skin_left: { imgurl: "images/rack_door_back.jpg" },
-              skin_right: { imgurl: "images/rack_door_back.jpg" },
+              skin_left: { imgurl: "../../images/rack_door_back.jpg" },
+              skin_right: { imgurl: "../../images/rack_door_back.jpg" },
             }
           },
           skin_down: {
@@ -3092,10 +3091,10 @@ function testRoom () {
           skins: [{
             skinColor: 0x333333,
             skin_fore: {
-              imgurl: "images/rack_door_back.jpg",
+              imgurl: "../../images/rack_door_back.jpg",
             },
             skin_behind: {
-              imgurl: "images/rack_front_door_27.jpg",
+              imgurl: "../../images/rack_front_door_27.jpg",
             }
           }],
         },
@@ -3104,18 +3103,18 @@ function testRoom () {
           skin_up: {
             skin: {
               skinColor: 0xffffff,
-              skin_up: { imgurl: "images/rack_door_back.jpg" },
-              skin_down: { imgurl: "images/rack_door_back.jpg" },
+              skin_up: { imgurl: "../../images/rack_door_back.jpg" },
+              skin_down: { imgurl: "../../images/rack_door_back.jpg" },
               skin_fore: {
                 skinColor: 0xff0000,
-                imgurl: "images/rack_door_back.jpg"
+                imgurl: "../../images/rack_door_back.jpg"
               },
               skin_behind: {
                 skinColor: 0xff0000,
-                imgurl: "images/rack_door_back.jpg"
+                imgurl: "../../images/rack_door_back.jpg"
               },
-              skin_left: { imgurl: "images/rack_door_back.jpg" },
-              skin_right: { imgurl: "images/rack_door_back.jpg" },
+              skin_left: { imgurl: "../../images/rack_door_back.jpg" },
+              skin_right: { imgurl: "../../images/rack_door_back.jpg" },
             }
           },
           skin_down: {
@@ -3158,10 +3157,10 @@ function testRoom () {
           skins: [{
             skinColor: 0x333333,
             skin_fore: {
-              imgurl: "images/rack_door_back.jpg",
+              imgurl: "../../images/rack_door_back.jpg",
             },
             skin_behind: {
-              imgurl: "images/rack_front_door_27.jpg",
+              imgurl: "../../images/rack_front_door_27.jpg",
             }
           }],
         },
@@ -3170,18 +3169,18 @@ function testRoom () {
           skin_up: {
             skin: {
               skinColor: 0xffffff,
-              skin_up: { imgurl: "images/rack_door_back.jpg" },
-              skin_down: { imgurl: "images/rack_door_back.jpg" },
+              skin_up: { imgurl: "../../images/rack_door_back.jpg" },
+              skin_down: { imgurl: "../../images/rack_door_back.jpg" },
               skin_fore: {
                 skinColor: 0xff0000,
-                imgurl: "images/rack_door_back.jpg"
+                imgurl: "../../images/rack_door_back.jpg"
               },
               skin_behind: {
                 skinColor: 0xff0000,
-                imgurl: "images/rack_door_back.jpg"
+                imgurl: "../../images/rack_door_back.jpg"
               },
-              skin_left: { imgurl: "images/rack_door_back.jpg" },
-              skin_right: { imgurl: "images/rack_door_back.jpg" },
+              skin_left: { imgurl: "../../images/rack_door_back.jpg" },
+              skin_right: { imgurl: "../../images/rack_door_back.jpg" },
             }
           },
           skin_down: {
@@ -3224,10 +3223,10 @@ function testRoom () {
           skins: [{
             skinColor: 0x333333,
             skin_fore: {
-              imgurl: "images/rack_door_back.jpg",
+              imgurl: "../../images/rack_door_back.jpg",
             },
             skin_behind: {
-              imgurl: "images/rack_front_door_29.jpg",
+              imgurl: "../../images/rack_front_door_29.jpg",
             }
           }],
         },
@@ -3236,18 +3235,18 @@ function testRoom () {
           skin_up: {
             skin: {
               skinColor: 0xffffff,
-              skin_up: { imgurl: "images/rack_door_back.jpg" },
-              skin_down: { imgurl: "images/rack_door_back.jpg" },
+              skin_up: { imgurl: "../../images/rack_door_back.jpg" },
+              skin_down: { imgurl: "../../images/rack_door_back.jpg" },
               skin_fore: {
                 skinColor: 0xff0000,
-                imgurl: "images/rack_door_back.jpg"
+                imgurl: "../../images/rack_door_back.jpg"
               },
               skin_behind: {
                 skinColor: 0xff0000,
-                imgurl: "images/rack_door_back.jpg"
+                imgurl: "../../images/rack_door_back.jpg"
               },
-              skin_left: { imgurl: "images/rack_door_back.jpg" },
-              skin_right: { imgurl: "images/rack_door_back.jpg" },
+              skin_left: { imgurl: "../../images/rack_door_back.jpg" },
+              skin_right: { imgurl: "../../images/rack_door_back.jpg" },
             }
           },
           skin_down: {
@@ -3290,10 +3289,10 @@ function testRoom () {
           skins: [{
             skinColor: 0x333333,
             skin_fore: {
-              imgurl: "images/rack_door_back.jpg",
+              imgurl: "../../images/rack_door_back.jpg",
             },
             skin_behind: {
-              imgurl: "images/rack_front_door_29.jpg",
+              imgurl: "../../images/rack_front_door_29.jpg",
             }
           }],
         },
@@ -3302,18 +3301,18 @@ function testRoom () {
           skin_up: {
             skin: {
               skinColor: 0xffffff,
-              skin_up: { imgurl: "images/rack_door_back.jpg" },
-              skin_down: { imgurl: "images/rack_door_back.jpg" },
+              skin_up: { imgurl: "../../images/rack_door_back.jpg" },
+              skin_down: { imgurl: "../../images/rack_door_back.jpg" },
               skin_fore: {
                 skinColor: 0xff0000,
-                imgurl: "images/rack_door_back.jpg"
+                imgurl: "../../images/rack_door_back.jpg"
               },
               skin_behind: {
                 skinColor: 0xff0000,
-                imgurl: "images/rack_door_back.jpg"
+                imgurl: "../../images/rack_door_back.jpg"
               },
-              skin_left: { imgurl: "images/rack_door_back.jpg" },
-              skin_right: { imgurl: "images/rack_door_back.jpg" },
+              skin_left: { imgurl: "../../images/rack_door_back.jpg" },
+              skin_right: { imgurl: "../../images/rack_door_back.jpg" },
             }
           },
           skin_down: {
@@ -3356,10 +3355,10 @@ function testRoom () {
           skins: [{
             skinColor: 0x333333,
             skin_fore: {
-              imgurl: "images/rack_door_back.jpg",
+              imgurl: "../../images/rack_door_back.jpg",
             },
             skin_behind: {
-              imgurl: "images/rack_front_door_31.jpg",
+              imgurl: "../../images/rack_front_door_31.jpg",
             }
           }],
         },
@@ -3368,18 +3367,18 @@ function testRoom () {
           skin_up: {
             skin: {
               skinColor: 0xffffff,
-              skin_up: { imgurl: "images/rack_door_back.jpg" },
-              skin_down: { imgurl: "images/rack_door_back.jpg" },
+              skin_up: { imgurl: "../../images/rack_door_back.jpg" },
+              skin_down: { imgurl: "../../images/rack_door_back.jpg" },
               skin_fore: {
                 skinColor: 0xff0000,
-                imgurl: "images/rack_door_back.jpg"
+                imgurl: "../../images/rack_door_back.jpg"
               },
               skin_behind: {
                 skinColor: 0xff0000,
-                imgurl: "images/rack_door_back.jpg"
+                imgurl: "../../images/rack_door_back.jpg"
               },
-              skin_left: { imgurl: "images/rack_door_back.jpg" },
-              skin_right: { imgurl: "images/rack_door_back.jpg" },
+              skin_left: { imgurl: "../../images/rack_door_back.jpg" },
+              skin_right: { imgurl: "../../images/rack_door_back.jpg" },
             }
           },
           skin_down: {
@@ -3422,10 +3421,10 @@ function testRoom () {
           skins: [{
             skinColor: 0x333333,
             skin_fore: {
-              imgurl: "images/rack_door_back.jpg",
+              imgurl: "../../images/rack_door_back.jpg",
             },
             skin_behind: {
-              imgurl: "images/rack_front_door_32.jpg",
+              imgurl: "../../images/rack_front_door_32.jpg",
             }
           }],
         },
@@ -3434,18 +3433,18 @@ function testRoom () {
           skin_up: {
             skin: {
               skinColor: 0xffffff,
-              skin_up: { imgurl: "images/rack_door_back.jpg" },
-              skin_down: { imgurl: "images/rack_door_back.jpg" },
+              skin_up: { imgurl: "../../images/rack_door_back.jpg" },
+              skin_down: { imgurl: "../../images/rack_door_back.jpg" },
               skin_fore: {
                 skinColor: 0xff0000,
-                imgurl: "images/rack_door_back.jpg"
+                imgurl: "../../images/rack_door_back.jpg"
               },
               skin_behind: {
                 skinColor: 0xff0000,
-                imgurl: "images/rack_door_back.jpg"
+                imgurl: "../../images/rack_door_back.jpg"
               },
-              skin_left: { imgurl: "images/rack_door_back.jpg" },
-              skin_right: { imgurl: "images/rack_door_back.jpg" },
+              skin_left: { imgurl: "../../images/rack_door_back.jpg" },
+              skin_right: { imgurl: "../../images/rack_door_back.jpg" },
             }
           },
           skin_down: {
@@ -3488,10 +3487,10 @@ function testRoom () {
           skins: [{
             skinColor: 0x333333,
             skin_fore: {
-              imgurl: "images/rack_door_back.jpg",
+              imgurl: "../../images/rack_door_back.jpg",
             },
             skin_behind: {
-              imgurl: "images/rack_front_door_33.jpg",
+              imgurl: "../../images/rack_front_door_33.jpg",
             }
           }],
         },
@@ -3500,18 +3499,18 @@ function testRoom () {
           skin_up: {
             skin: {
               skinColor: 0xffffff,
-              skin_up: { imgurl: "images/rack_door_back.jpg" },
-              skin_down: { imgurl: "images/rack_door_back.jpg" },
+              skin_up: { imgurl: "../../images/rack_door_back.jpg" },
+              skin_down: { imgurl: "../../images/rack_door_back.jpg" },
               skin_fore: {
                 skinColor: 0xff0000,
-                imgurl: "images/rack_door_back.jpg"
+                imgurl: "../../images/rack_door_back.jpg"
               },
               skin_behind: {
                 skinColor: 0xff0000,
-                imgurl: "images/rack_door_back.jpg"
+                imgurl: "../../images/rack_door_back.jpg"
               },
-              skin_left: { imgurl: "images/rack_door_back.jpg" },
-              skin_right: { imgurl: "images/rack_door_back.jpg" },
+              skin_left: { imgurl: "../../images/rack_door_back.jpg" },
+              skin_right: { imgurl: "../../images/rack_door_back.jpg" },
             }
           },
           skin_down: {
@@ -3554,10 +3553,10 @@ function testRoom () {
           skins: [{
             skinColor: 0x333333,
             skin_fore: {
-              imgurl: "images/rack_door_back.jpg",
+              imgurl: "../../images/rack_door_back.jpg",
             },
             skin_behind: {
-              imgurl: "images/rack_front_door_34.jpg",
+              imgurl: "../../images/rack_front_door_34.jpg",
             }
           }],
         },
@@ -3566,18 +3565,18 @@ function testRoom () {
           skin_up: {
             skin: {
               skinColor: 0xffffff,
-              skin_up: { imgurl: "images/rack_door_back.jpg" },
-              skin_down: { imgurl: "images/rack_door_back.jpg" },
+              skin_up: { imgurl: "../../images/rack_door_back.jpg" },
+              skin_down: { imgurl: "../../images/rack_door_back.jpg" },
               skin_fore: {
                 skinColor: 0xff0000,
-                imgurl: "images/rack_door_back.jpg"
+                imgurl: "../../images/rack_door_back.jpg"
               },
               skin_behind: {
                 skinColor: 0xff0000,
-                imgurl: "images/rack_door_back.jpg"
+                imgurl: "../../images/rack_door_back.jpg"
               },
-              skin_left: { imgurl: "images/rack_door_back.jpg" },
-              skin_right: { imgurl: "images/rack_door_back.jpg" },
+              skin_left: { imgurl: "../../images/rack_door_back.jpg" },
+              skin_right: { imgurl: "../../images/rack_door_back.jpg" },
             }
           },
           skin_down: {
@@ -3620,10 +3619,10 @@ function testRoom () {
           skins: [{
             skinColor: 0x333333,
             skin_fore: {
-              imgurl: "images/rack_door_back.jpg",
+              imgurl: "../../images/rack_door_back.jpg",
             },
             skin_behind: {
-              imgurl: "images/rack_front_door_34.jpg",
+              imgurl: "../../images/rack_front_door_34.jpg",
             }
           }],
         },
@@ -3632,18 +3631,18 @@ function testRoom () {
           skin_up: {
             skin: {
               skinColor: 0xffffff,
-              skin_up: { imgurl: "images/rack_door_back.jpg" },
-              skin_down: { imgurl: "images/rack_door_back.jpg" },
+              skin_up: { imgurl: "../../images/rack_door_back.jpg" },
+              skin_down: { imgurl: "../../images/rack_door_back.jpg" },
               skin_fore: {
                 skinColor: 0xff0000,
-                imgurl: "images/rack_door_back.jpg"
+                imgurl: "../../images/rack_door_back.jpg"
               },
               skin_behind: {
                 skinColor: 0xff0000,
-                imgurl: "images/rack_door_back.jpg"
+                imgurl: "../../images/rack_door_back.jpg"
               },
-              skin_left: { imgurl: "images/rack_door_back.jpg" },
-              skin_right: { imgurl: "images/rack_door_back.jpg" },
+              skin_left: { imgurl: "../../images/rack_door_back.jpg" },
+              skin_right: { imgurl: "../../images/rack_door_back.jpg" },
             }
           },
           skin_down: {
@@ -3686,10 +3685,10 @@ function testRoom () {
           skins: [{
             skinColor: 0x333333,
             skin_fore: {
-              imgurl: "images/rack_door_back.jpg",
+              imgurl: "../../images/rack_door_back.jpg",
             },
             skin_behind: {
-              imgurl: "images/rack_front_door_36.jpg",
+              imgurl: "../../images/rack_front_door_36.jpg",
             }
           }],
         },
@@ -3698,18 +3697,18 @@ function testRoom () {
           skin_up: {
             skin: {
               skinColor: 0xffffff,
-              skin_up: { imgurl: "images/rack_door_back.jpg" },
-              skin_down: { imgurl: "images/rack_door_back.jpg" },
+              skin_up: { imgurl: "../../images/rack_door_back.jpg" },
+              skin_down: { imgurl: "../../images/rack_door_back.jpg" },
               skin_fore: {
                 skinColor: 0xff0000,
-                imgurl: "images/rack_door_back.jpg"
+                imgurl: "../../images/rack_door_back.jpg"
               },
               skin_behind: {
                 skinColor: 0xff0000,
-                imgurl: "images/rack_door_back.jpg"
+                imgurl: "../../images/rack_door_back.jpg"
               },
-              skin_left: { imgurl: "images/rack_door_back.jpg" },
-              skin_right: { imgurl: "images/rack_door_back.jpg" },
+              skin_left: { imgurl: "../../images/rack_door_back.jpg" },
+              skin_right: { imgurl: "../../images/rack_door_back.jpg" },
             }
           },
           skin_down: {
@@ -3752,10 +3751,10 @@ function testRoom () {
           skins: [{
             skinColor: 0x333333,
             skin_fore: {
-              imgurl: "images/rack_door_back.jpg",
+              imgurl: "../../images/rack_door_back.jpg",
             },
             skin_behind: {
-              imgurl: "images/rack_front_door_36.jpg",
+              imgurl: "../../images/rack_front_door_36.jpg",
             }
           }],
         },
@@ -3764,18 +3763,18 @@ function testRoom () {
           skin_up: {
             skin: {
               skinColor: 0xffffff,
-              skin_up: { imgurl: "images/rack_door_back.jpg" },
-              skin_down: { imgurl: "images/rack_door_back.jpg" },
+              skin_up: { imgurl: "../../images/rack_door_back.jpg" },
+              skin_down: { imgurl: "../../images/rack_door_back.jpg" },
               skin_fore: {
                 skinColor: 0xff0000,
-                imgurl: "images/rack_door_back.jpg"
+                imgurl: "../../images/rack_door_back.jpg"
               },
               skin_behind: {
                 skinColor: 0xff0000,
-                imgurl: "images/rack_door_back.jpg"
+                imgurl: "../../images/rack_door_back.jpg"
               },
-              skin_left: { imgurl: "images/rack_door_back.jpg" },
-              skin_right: { imgurl: "images/rack_door_back.jpg" },
+              skin_left: { imgurl: "../../images/rack_door_back.jpg" },
+              skin_right: { imgurl: "../../images/rack_door_back.jpg" },
             }
           },
           skin_down: {
@@ -3818,10 +3817,10 @@ function testRoom () {
           skins: [{
             skinColor: 0x333333,
             skin_fore: {
-              imgurl: "images/rack_door_back.jpg",
+              imgurl: "../../images/rack_door_back.jpg",
             },
             skin_behind: {
-              imgurl: "images/rack_front_door_38.jpg",
+              imgurl: "../../images/rack_front_door_38.jpg",
             }
           }],
         },
@@ -3830,18 +3829,18 @@ function testRoom () {
           skin_up: {
             skin: {
               skinColor: 0xffffff,
-              skin_up: { imgurl: "images/rack_door_back.jpg" },
-              skin_down: { imgurl: "images/rack_door_back.jpg" },
+              skin_up: { imgurl: "../../images/rack_door_back.jpg" },
+              skin_down: { imgurl: "../../images/rack_door_back.jpg" },
               skin_fore: {
                 skinColor: 0xff0000,
-                imgurl: "images/rack_door_back.jpg"
+                imgurl: "../../images/rack_door_back.jpg"
               },
               skin_behind: {
                 skinColor: 0xff0000,
-                imgurl: "images/rack_door_back.jpg"
+                imgurl: "../../images/rack_door_back.jpg"
               },
-              skin_left: { imgurl: "images/rack_door_back.jpg" },
-              skin_right: { imgurl: "images/rack_door_back.jpg" },
+              skin_left: { imgurl: "../../images/rack_door_back.jpg" },
+              skin_right: { imgurl: "../../images/rack_door_back.jpg" },
             }
           },
           skin_down: {
@@ -3884,10 +3883,10 @@ function testRoom () {
           skins: [{
             skinColor: 0x333333,
             skin_fore: {
-              imgurl: "images/rack_door_back.jpg",
+              imgurl: "../../images/rack_door_back.jpg",
             },
             skin_behind: {
-              imgurl: "images/rack_front_door_39.jpg",
+              imgurl: "../../images/rack_front_door_39.jpg",
             }
           }],
         },
@@ -3896,18 +3895,18 @@ function testRoom () {
           skin_up: {
             skin: {
               skinColor: 0xffffff,
-              skin_up: { imgurl: "images/rack_door_back.jpg" },
-              skin_down: { imgurl: "images/rack_door_back.jpg" },
+              skin_up: { imgurl: "../../images/rack_door_back.jpg" },
+              skin_down: { imgurl: "../../images/rack_door_back.jpg" },
               skin_fore: {
                 skinColor: 0xff0000,
-                imgurl: "images/rack_door_back.jpg"
+                imgurl: "../../images/rack_door_back.jpg"
               },
               skin_behind: {
                 skinColor: 0xff0000,
-                imgurl: "images/rack_door_back.jpg"
+                imgurl: "../../images/rack_door_back.jpg"
               },
-              skin_left: { imgurl: "images/rack_door_back.jpg" },
-              skin_right: { imgurl: "images/rack_door_back.jpg" },
+              skin_left: { imgurl: "../../images/rack_door_back.jpg" },
+              skin_right: { imgurl: "../../images/rack_door_back.jpg" },
             }
           },
           skin_down: {
@@ -3950,10 +3949,10 @@ function testRoom () {
           skins: [{
             skinColor: 0x333333,
             skin_fore: {
-              imgurl: "images/rack_door_back.jpg",
+              imgurl: "../../images/rack_door_back.jpg",
             },
             skin_behind: {
-              imgurl: "images/rack_front_door_40.jpg",
+              imgurl: "../../images/rack_front_door_40.jpg",
             }
           }],
         },
@@ -3962,18 +3961,18 @@ function testRoom () {
           skin_up: {
             skin: {
               skinColor: 0xffffff,
-              skin_up: { imgurl: "images/rack_door_back.jpg" },
-              skin_down: { imgurl: "images/rack_door_back.jpg" },
+              skin_up: { imgurl: "../../images/rack_door_back.jpg" },
+              skin_down: { imgurl: "../../images/rack_door_back.jpg" },
               skin_fore: {
                 skinColor: 0xff0000,
-                imgurl: "images/rack_door_back.jpg"
+                imgurl: "../../images/rack_door_back.jpg"
               },
               skin_behind: {
                 skinColor: 0xff0000,
-                imgurl: "images/rack_door_back.jpg"
+                imgurl: "../../images/rack_door_back.jpg"
               },
-              skin_left: { imgurl: "images/rack_door_back.jpg" },
-              skin_right: { imgurl: "images/rack_door_back.jpg" },
+              skin_left: { imgurl: "../../images/rack_door_back.jpg" },
+              skin_right: { imgurl: "../../images/rack_door_back.jpg" },
             }
           },
           skin_down: {
@@ -4015,27 +4014,27 @@ function testRoom () {
       //     skin: {
       //       skin_up: {
       //         skinColor: 0xff0000,
-      //         imgurl: "images/rack_inside.jpg",
+      //         imgurl: "../../images/rack_inside.jpg",
       //       },
       //       skin_down: {
       //         skinColor: 0xff0000,
-      //         imgurl: "images/rack_inside.jpg",
+      //         imgurl: "../../images/rack_inside.jpg",
       //       },
       //       skin_fore: {
       //         skinColor: 0xff0000,
-      //         imgurl: "images/rack_inside.jpg",
+      //         imgurl: "../../images/rack_inside.jpg",
       //       },
       //       skin_behind: {
       //         skinColor: 0xff0000,
-      //         imgurl: "images/server2.jpg",
+      //         imgurl: "../../images/server2.jpg",
       //       },
       //       skin_left: {
       //         skinColor: 0xff0000,
-      //         imgurl: "images/rack_inside.jpg",
+      //         imgurl: "../../images/rack_inside.jpg",
       //       },
       //       skin_right: {
       //         skinColor: 0xff0000,
-      //         imgurl: "images/rack_inside.jpg",
+      //         imgurl: "../../images/rack_inside.jpg",
       //       }
       //     }
       //   }
@@ -4162,7 +4161,7 @@ function testRoom () {
       {
         btnid: "btn_reset",
         btnTitle: "场景复位",
-        btnimg: "images/reset.png",
+        btnimg: "../../images/reset.png",
         event: function () {
           $('#canvas-frame').empty();
           msjstation = null; msj3DObj = null;
@@ -4179,28 +4178,28 @@ function testRoom () {
       {
         btnid: "btn_connection",
         btnTitle: "走线管理",
-        btnimg: "images/connection.png",
+        btnimg: "../../images/connection.png",
         event: function () {
         }
       },
       {
         btnid: "btn_usage",
         btnTitle: "机柜利用率",
-        btnimg: "images/usage.png",
+        btnimg: "../../images/usage.png",
         event: function () {
         }
       },
       {
         btnid: "btn_edit",
         btnTitle: "拖拽机柜",
-        btnimg: "images/edit.png",
+        btnimg: "../../images/edit.png",
         event: function () {
         }
       },
       {
         btnid: "btn_alarm",
         btnTitle: "告警巡航",
-        btnimg: "images/alarm.png",
+        btnimg: "../../images/alarm.png",
         event: function () {
           var mainCamera = msj3DObj.commonFunc.findObject("mainCamera");//主摄像机
           var doorRight = msj3DObj.commonFunc.findObject("doorRight");

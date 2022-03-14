@@ -2,6 +2,9 @@
  * 初始化选项
  */
 var loadRoom = {};
+var $dropDown = $('.dropdown');
+var url = decodeURI(window.location.href)
+var curRoomName = url.split("?curRoom=")[1];
 
 /**
  * three.js 渲染工具
@@ -12,6 +15,8 @@ var msjstation = new msj3D();
  * 渲染入口
  * @param {*} room 需要渲染的房间
  */
+
+
 function mainStart (room) {
   var initOption = {
     antialias: true,
@@ -23,7 +28,6 @@ function mainStart (room) {
   switch (room) {
     case 'testRoom':
       loadRoom = testRoom();
-      window.location.href = '../template/' + room;
       break;
     default:
       loadRoom = initRoomFun();
@@ -42,7 +46,15 @@ function toggleBtnText (obj) {
     li_lists[k].index = k;
     li_lists[k].onclick = function () { //判断哪一个li标签被点击
       title.text($(this).children('a').text())
-      mainStart('testRoom');
+      var curRoom = $(this).children('a').text();
+      switch (curRoom) {
+        case '无锡市春雷110千伏变电站':
+          window.location.href = '../template/testRoom.html?curRoom=' + curRoom;
+          break;
+        default:
+          window.location.href = 'index.html'
+          break;
+      }
       // console.log(this.children('a').text());
     }
   }
@@ -76,5 +88,3 @@ function openControlView () {
 function closeControlView () {
   $('#myModal').modal('hide');
 }
-
-

@@ -53,9 +53,13 @@
   </nav>
 
   <div id="canvas-frame" class="canvas_frame">
-    <div class="dropdown area-selector">
+    <div class="header-search">
+      <button type="button" class="btn btn-primary" id="backToindex" onclick="javascript:window.history.back(-1);"
+        style="position: absolute; margin: 10px 10px;">返回</button>
+    </div>
+    <!-- <div class="dropdown area-selector">
       <button type="button" class="btn dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown"
-        onclick="toggleBtnText(this)">无锡市变电站
+        onclick="toggleBtnText(this)">
       </button>
       <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1" id='dropdownMenu1-item'>
         <li role="presentation" class="dropdown-header">变电站</li>
@@ -69,7 +73,7 @@
           <a role="menuitem" tabindex="-1" href="#">无锡市春雷310千伏变电站</a>
         </li>
       </ul>
-    </div>
+    </div> -->
     <div id="hint"></div>
   </div>
 
