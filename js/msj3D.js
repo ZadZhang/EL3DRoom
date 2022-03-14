@@ -187,10 +187,10 @@ msj3D.prototype.InitAddObject = function (_obj) {
         _tempObj = _this.createEmptyCabinet(_this, _obj);
         _this.addObject(_tempObj);
         break;
-      // case 'cloneObj':
-      //   _tempObj = _this.commonFunc.cloneObj(_obj.copyfrom, _obj);
-      //   _this.addObject(_tempObj);
-      //   break;
+      case 'cloneObj':
+        _tempObj = _this.commonFunc.cloneObj(_obj.copyfrom, _obj);
+        _this.addObject(_tempObj);
+        break;
     }
   }
 }

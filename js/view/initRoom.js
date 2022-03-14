@@ -1,8 +1,9 @@
 /**
  * 初始化房间
  */
+var initRoom = {};
 function initRoomFun () {
-  var initRoom = {
+  initRoom = {
     name: 'initRoom',
     objects: [
       //地板
@@ -989,8 +990,13 @@ function initRoomFun () {
     ]
   }
   //复制机柜
-  for (var i = 1; i <= 3; i++) {
-    for (var j = 1; j <= 6; j++) {
+  copyCabinet();
+  return initRoom;
+}
+
+function copyCabinet () {
+  for (let i = 1; i <= 3; i++) {
+    for (let j = 1; j <= 6; j++) {
       if (i != 1 || j != 1) {
         initRoom.objects.push({
           show: true,
@@ -1005,7 +1011,6 @@ function initRoomFun () {
       }
     }
   }
-  return initRoom;
 }
 
 
